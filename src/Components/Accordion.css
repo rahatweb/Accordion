@@ -1,0 +1,54 @@
+
+.wrapper{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+.accordion{
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(186, 219, 248);
+    border-radius: 5px;
+
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin:0.5rem 1.5rem 0.1rem 1.5rem;
+    padding: 8px;
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px rgb(113, 115, 118);
+    border-radius: 8px 8px 0px 0px;
+    
+
+}
+.answer{
+    margin: 0 1.5rem 0 1.5rem;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+
+}
+span{
+    font-weight: 800;
+    font-size: 1.5rem;
+
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgb(63, 63, 255);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    background-color: blue;
+}
