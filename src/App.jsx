@@ -1,13 +1,11 @@
-import React, { useState } from 'react'
-import Accordion from './Components/accordion'
-
+import Accordion from "./Components/accordion";
+import QRCodeGenerator from "./Components/Qrcode";
 const App = () => {
-  const [selected, SetSelected]= useState(null)
   return (
     <div>
       <Accordion />
+      <QRCodeGenerator />
     </div>
-  )
-}
-
-export default App
+  );
+};
+export default App;
